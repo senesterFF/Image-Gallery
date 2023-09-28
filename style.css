@@ -1,0 +1,70 @@
+/* Reset some default styles to ensure consistency */
+body, h1, p {
+    margin: 10;
+    padding: 10;
+}
+
+/* Apply a background color to the entire page */
+body {
+    background: linear-gradient(45deg, #354F52, #D9BF77, #D1495B);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Style the gallery container */
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the image gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.image img {
+    max-width: 700px;
+    max-height: 700px;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+/* Style the navigation controls */
+.controls {
+    margin-top: 10px;
+}
+
+/* Style the image description */
+.image-description {
+    margin-top: 20px;
+    text-align: center;
+}
+/* Add these styles to your style.css file */
+.controls button {
+    background-color: #0074d9; /* Change this to the color you prefer */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #0056b3; /* Change this to the color you prefer on hover */
+}
+    
+
